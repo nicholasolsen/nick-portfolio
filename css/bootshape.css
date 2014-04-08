@@ -1,0 +1,58 @@
+body {
+    background-image:url('../img/bg.png');
+    background-repeat:repeat;
+}
+p {
+    margin: 0 0 20px;
+}
+.navbar {
+    background-image:url('../img/bg.png');
+    background-repeat:repeat;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 70px 0 0 0;
+}
+.footer {
+    margin-top: 40px;
+    padding: 40px 0;
+}
+.event {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 30px;
+}
+.event + .event {
+    padding-top: 30px;
+}
+.event .date {
+    margin-bottom: 7px;
+    color: #2a6496;
+}
+
+.fd-fade1 {
+  width: 240px;
+  height: 180px;
+  background-image: url(../img/profileChainsawBW.jpg);
+  background-size: 150px;
+}
+.fd-fade2 {
+  width: 240px;
+  height: 160px;
+  background-image: url(http://i.imgur.com/l1YVUSu.jpg)
+}
+.fd-fade3 {
+  width: 240px;
+  height: 152px;
+  background-image: url(http://i.imgur.com/6XO7ueG.jpg)
+}
+
+/*hide all the images, so background image shows*/
+img.fd-img1 {
+  display: none;
+}
+img.fd-img2 {
+  display: none;
+}
+img.fd-img3 {
+  display: none;
+}
